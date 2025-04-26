@@ -1,3 +1,8 @@
+/* div css styling for layout checking */
+/* div {
+    border: 1px solid teal;
+} */
+
 .wrapper {
     display: flex;
     justify-content: center;
