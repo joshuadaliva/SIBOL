@@ -3,225 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIBOL</title>
+    <title>Sibol&trade; | Alamat ng Sampaguita</title>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
-   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./../css/style.css">
 </head>
 <body>
-    <div>
-        <nav class="bg-white border-gray-200 dark:bg-gray-900 shadow-lg" id="navbar">
-            <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
-                <a href="./../index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <span class="self-center text-4xl font-extrabold tracking-tight leading-none text-gray-900  dark:text-white whitespace-nowrap dark:text-white">SIBOL</span>
-                </a>
-                <div class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
-                   
-                    <button data-collapse-toggle="mega-menu-icons" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-icons" aria-expanded="false">
-                        <span class="sr-only">Open main menu</span>
-                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                        </svg>
-                    </button>
-                </div>
-                <div id="mega-menu-icons" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
-                    <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
-                        <li>
-                            <button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown" class="flex items-center justify-between w-full py-2 px-3 font-medium text-gray-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">
-                                Mga Akdang pampanitikan
-                                <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                                </svg>
-                            </button>
-                            <div id="mega-menu-icons-dropdown" class="absolute z-10 grid hidden w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md dark:border-gray-700 md:grid-cols-3 dark:bg-gray-700 z-40">
-                                <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
-                                    <ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
-                                        <li>
-                                            <a href="./maikling-kwento.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Maikling kwento
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="./alamat.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Alamat 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="./nobela.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Nobela
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="./tula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Tula
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
-                                    <ul class="space-y-4">
-                                        <li>
-                                            <a href="dula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Dula
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="epiko.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Epiko
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="parabula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Parabula
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="Anekdota.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Anekdota
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="p-4 text-gray-900 dark:text-white">
-                                    <ul class="space-y-4">
-                                        <li>
-                                            <a href="talambuhay.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Talambuhay 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="pabula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Pabula
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="talaarawan.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Talaarawan
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="awtobiyograpiya.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Awtobiyograpiya 
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <main>
-            <div class="container font-extrabold mx-auto max-w-4xl  p-5">
+    <div class="bg-white dark:bg-gray-900 min-h-screen flex flex-col justify-between">
+        <!-- Navbar -->
+        <div id="navbar-container"></div>
+        <!-- Main Content -->
+        <main class="bg-white dark:bg-gray-900 pt-25 mx-auto w-full max-w-screen-xl px-2 pb-4">
+            <div class="container font-bold w-fit px-4 py-2 text-white mb-10 bg-gray-700 rounded-2xl shadow-md text-center text-sm ms-2">
                 <a href="./../panitikan/alamat.html">
-                    <span class="cursor-pointer">
-                        <i class="fa-solid fa-arrow-left font-extrabold"></i>
-                        Alamat
-                    </span>
+                    <span class="cursor-pointer hover:text-blue-400">
+                    <i class="fa-solid fa-arrow-left"></i>&ensp;Alamat</span>
                 </a>
             </div>
-          
-            <div class="m-4 my-10 ">
-                <h3 class="text-4xl mb-3 font-extrabold tracking-tight leading-none text-gray-900 dark:text-white text-center">Alamat ng Sampaguita</h3>
-                <p class="text-1xl tracking-tight leading-none text-gray-900 dark:text-white text-center">Kwento ni: Segundo D. Matias Jr.</p>
+            <!-- Title -->
+            <div class="m-4 my-5">
+                <h3 class="text-4xl mb-4 font-extrabold tracking-tight leading-none text-gray-900 dark:text-white text-center">Alamat ng Sampaguita</h3>
+                <p class="text-sm tracking-tight leading-none text-gray-700 dark:text-gray-300 text-center">Kwento ni: Segundo D. Matias Jr.</p>
             </div>
-           
-            <div class="container mx-auto max-w-4xl p-5 ">
-                <p  class="mb-5 text-dark-500 dark:text-dark-400 leading-8">
+            <!-- Divider -->
+            <hr class="my-8 border-gray-200 sm:mx-auto dark:border-gray-600" />
+            <!-- Story Content -->
+            <div class="container mx-auto max-w-4xl px-6 text-md">
+                <p class="mb-5 text-gray-700 dark:text-gray-100 leading-7">
                     Sa isang malayong bayan sa Norte ay may isang napakagandang dalaga na Liwayway ang pangalan.
                     Ang kagandahan ni Liwayway ay nakarating hanggang sa malalayong bayan. Hindi naging kataka-taka kung bakit napakarami ng kanyang naging mga manliligaw.
                 </p>
-              
-                <p  class="mb-5 text-dark-500 dark:text-dark-400 leading-8">
+                <p class="mb-5 text-gray-700 dark:text-gray-100 leading-7">
                     Mula sa hilaga ay isang grupo ng mga mangangaso ang nagawi sa lugar nina Liwayway. Sa kasamaang palad, si Tanggol, isa sa mga ito ay inatake ng baboy-ramo. Ang binata ay dinala sa ama ni Liwayway para mabigyan ng pangunang lunas. Iyon ang naging daan ng paglakalapit nila.
                 </p>
-                <p  class="mb-5 text-dark-500 dark:text-dark-400 leading-8">
+                <p class="mb-5 text-gray-700 dark:text-gray-100 leading-7">
                     Umibig sina Liwayway at Tanggol sa isa’t-isa sa maikling panahon ng pagkikilala.
                 </p>
-                <p  class="mb-5 text-dark-500 dark:text-dark-400 leading-8">
+                <p class="mb-5 text-gray-700 dark:text-gray-100 leading-7">
                     Nang gumaling si Tanggol ito ay nagpaalam kay Liwayway at sa mga magulang niya. Anang binata ay susunduin ang ama’t ina upang pormal na hingin ang kamay ng dalaga.
-
                 </p>
-                <p  class="mb-5 text-dark-500 dark:text-dark-400 leading-8">
+                <p class="mb-5 text-gray-700 dark:text-gray-100 leading-7">
                     Puno ng pangarap si Liwayway nang ihatid ng tanaw si Tanggol.
-
                     Subalit dagling naglaho ang pag-asa ni Liwayway na babalik si Tanggol tulad ng pangako. Ilang pagsikat na ng buwan mula nang umalis ito ngunit ni balita ay wala siyang natanggap.
                 </p>
-                <p  class="mb-5 text-dark-500 dark:text-dark-400 leading-8">
+                <p class="mb-5 text-gray-700 dark:text-gray-100 leading-7">
                     Isang dating manliligaw ang nakaisip siraan si Tanggol. Ikinalat nito ang balita na hindi na babalik si Tanggol dahil may asawa na ito.
-
                     Tinalo ng lungkot, pangungulila, sama ng loob at panibugho ang puso ni Liwayway. Nagkasakit siya. Palibhasa ay sarili lang ang makagagamot sa karamdaman kung kaya ilang linggo lang ay naglubha ang dalaga at namatay.
                 </p>
-                <p  class="mb-5 text-dark-500 dark:text-dark-400 leading-8">
+                <p class="mb-5 text-gray-700 dark:text-gray-100 leading-7">
                     Bago namatay ay wala siyang nausal kundi ang mga salitang,
                     “Isinusumpa kita! Sumpa kita…”
-                    Ang mga salitang “Isinusumpa kita! Sumpa kita…” ang tanging naiwan ni Lwayway kay Tanggol.
+                    Ang mga salitang “Isinusumpa kita! Sumpa kita…” ang tanging naiwan ni Liwayway kay Tanggol.
                 </p>
-                <p  class="mb-5 text-dark-500 dark:text-dark-400 leading-8">
+                <p class="mb-5 text-gray-700 dark:text-gray-100 leading-7">
                     Ilang araw makaraang mailibing si Liwayway ay dumating si Tanggol kasama ang mga magulang. Anito ay hindi agad nakabalik dahil nagkasakit ang ina. Hindi matanggap ng binata na wala na ang babaing pinakamamahal.
                 </p> 
-                <p  class="mb-5 text-dark-500 dark:text-dark-400 leading-8">Sa sobrang paghihinagpis, araw-araw ay halos madilig ng luha ni Tanggol ang puntod ni Liwayway. Hindi na rin siya bumalik sa sariling bayan upang mabantayan ang puntod ng kasintahan.</p>
-                <p  class="mb-5 text-dark-500 dark:text-dark-400 leading-8">Isang araw ay may napansin si Tanggol sa ibabaw ng puntod ni Liwayway. May tumubong halaman doon, halaman na patuloy na dinilig ng kanyang mga luha. Nang mamulaklak ang halaman ay may samyo iyon na ubod ng bango. Tinawag iyong ‘sumpa kita’, ang mga huling salitang binigkas ni Liwayway bago namatay. Ang ‘sumpa kita’ ay ang pinagmulan ng salitang ‘sampaguita’.</p>
+                <p class="mb-5 text-gray-700 dark:text-gray-100 leading-7">
+                    Sa sobrang paghihinagpis, araw-araw ay halos madilig ng luha ni Tanggol ang puntod ni Liwayway. Hindi na rin siya bumalik sa sariling bayan upang mabantayan ang puntod ng kasintahan.
+                </p>
+                <p class="mb-5 text-gray-700 dark:text-gray-100 leading-7">
+                    Isang araw ay may napansin si Tanggol sa ibabaw ng puntod ni Liwayway. May tumubong halaman doon, halaman na patuloy na dinilig ng kanyang mga luha. Nang mamulaklak ang halaman ay may samyo iyon na ubod ng bango. Tinawag iyong ‘sumpa kita’, ang mga huling salitang binigkas ni Liwayway bago namatay. Ang ‘sumpa kita’ ay ang pinagmulan ng salitang ‘sampaguita’.
+                </p>
             </div>
-            
-            <p  class="mb-5 text-gray-500 text-center dark:text-gray-400 text-3xl">
+            <p class="my-5 text-gray-500 text-center dark:text-gray-400 text-2xl pt-5 pb-10">
                 Wakas.
             </p>
+            <!-- Other Story Links -->
+            <div class="relative grid grid-cols-1 justify-center gap-6 bg-white dark:bg-gray-900 mx-auto max-w-screen-md px-3 pt-10 pb-6">
+                <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 me-4">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">Iba pang Alamat</th>
+                            <th scope="col" class="px-6 py-3">Link</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+            <!-- Story Source -->
+            <div class="justify-center gap-6 bg-white dark:bg-gray-900 pt-10 mx-auto w-full max-w-screen-md px-2 pt-6 pb-6">
+                <div class="px-6 text-center">
+                    <p class="text-sm text-gray-400 my-2 italic">
+                        This story is originally published on 
+                        <a href="https://mgakwentongpambata.blogspot.com/2019/06/alamat-ng-sampaguita.html" class="text-blue-400 hover:underline" target="_blank">mgakwentongpambata</a>
+                    </p>
+                </div>
+            </div>
         </main>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 items-start justify-start gap-6 mt-10 md:mt-30">
-        <div class="px-6 mt-10">
-          <p class="text-lg mt-10 text-gray-800 mb-2">
-            This Story is originally published on 
-            <span class="italic">
-                <a href="https://mgakwentongpambata.blogspot.com/2019/06/alamat-ng-sampaguita.html" class="text-blue-600 hover:underline" target="_blank">
-                    mgakwentongpambata
-                </a>
-            </span>
-          </p>
-        </div>
-        <div class="relative overflow-x-auto">
-          <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-              <tr>
-                <th scope="col" class="px-6 py-3">Iba pang Alamat</th>
-                <th scope="col" class="px-6 py-3">Link</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="bg-white dark:bg-gray-800">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                  Alamat ng Pinya
-                </th>
-                <td class="px-6 py-4 text-blue-500">
-                  <a href="./alamat-ng-pinya.html">Bisitahin</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      
-    <footer class="bg-white rounded-lg shadow-sm my-4 dark:bg-gray-800" style="position: relative;bottom: 0;width: 100%;">
-        <div class="story-credits bg-gray-100 px-6 py-4 mt-10 border-t border-gray-300">
-            <h4 class="text-lg font-semibold text-gray-800 mb-2">Credits</h4>
-            <ul class="list-disc list-inside text-gray-700 space-y-1">
-              <li>
-                <span class="italic">
-                <a href="https://www.wikipedia.org/" target="_blank" class="text-blue-600 hover:underline">https://www.wikipedia.org/ - Wikipedia</a>
-              </li>
-              <li>
-                <span class="italic">
-                <a href="https://www.scribd.com/" target="_blank" class="text-blue-600 hover:underline">https://www.scribd.com/ - Scribd</a>
-              </li>
-            </ul>
-        </div>
-        <div class="w-full mx-auto max-w-screen-xl py-4 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400 block w-full">© 2025 <a href="" class="hover:underline text-center ">SIBOL</a>. All Rights Reserved.
-        </span>
-        </div>
-    </footer>
+    <!-- Main Footer -->
+    <div id="footer-container"></div>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="../JS_scripts/footer_scripts.js"></script>
+    <script src="../JS_scripts/content-header-scripts.js"></script>
+    <script src="../JS_scripts/alamat/other-link-scripts.js"></script>
+    
 </body>
 </html>
