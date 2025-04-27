@@ -26,6 +26,7 @@ const footerHTML = `
                                 <li>Flor, Lyca R.</li>
                                 <li>Mariscotes, Joy B.</li>
                                 <li>Olivares, Aileen A.</li>
+                                <li>Sayat, Janecel D.</li>
                                 <li>Tormes, Hanna Jane</li>
                             </ul>
                         </div>

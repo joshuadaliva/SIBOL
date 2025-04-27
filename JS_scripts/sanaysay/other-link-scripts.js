@@ -1,26 +1,26 @@
 const otherLinkHTML = `
     <tr class="bg-white dark:bg-gray-800">
         <th scope="row" class="px-6 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-            Ang Puno ng Balete
+            Katamaran Nga Ba o Kakulangan ng Oportunidad
         </th>
         <td class="px-6 py-3 text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-500">
-            <a href="ang-puno-ng-balete.html">Bisitahin</a>
+            <a href="katamaran-nga-ba-o-kakulangan-ng-oportunidad.html">Bisitahin</a>
         </td>
     </tr>
     <tr class="bg-white dark:bg-gray-800">
         <th scope="row" class="px-6 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-            Pagkamoot
+            Sa Panahong Makabago, Tao Ba ang Nagiging Luma?
         </th>
         <td class="px-6 py-3 text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-500">
-            <a href="pagkamoot.html">Bisitahin</a>
+            <a href="sa-panahong-makabago.html">Bisitahin</a>
         </td>
     </tr>
     <tr class="bg-white dark:bg-gray-800">
         <th scope="row" class="px-6 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-            Kuwento ng Romansa: Ikaw ang Mamahalin Hanggang Dulo
+            Sa Lipunang Marumi, Sino ang Malinis?
         </th>
         <td class="px-6 py-3 text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-500">
-            <a href="ikaw-ang-mamahalin-hanggang-dulo.html">Bisitahin</a>
+            <a href="sa-lipunang-marumi.html">Bisitahin</a>
         </td>
     </tr>
     `;
