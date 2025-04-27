@@ -11,30 +11,24 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<div id="preloader">
-  <div class="loader">
-    <img src="./assets/logo.png" alt="Sibol logo" class="mx-auto block" width="120">
-    <!-- <p>
-      <span>S</span>
-      <span>I</span>
-      <span>B</span>
-      <span>O</span>
-      <span>L</span>
-    </p> -->
-    <img src="./assets/load.gif" alt="Loading..." class="mx-auto block">
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader">
+      <img src="./assets/logo.png" alt="Sibol logo" class="mx-auto block" width="120">
+      <img src="./assets/load.gif" alt="Loading..." class="mx-auto block">
+    </div>
   </div>
-</div>
-  
-  
   <div>
     <!-- Navbar -->
-    <nav class="bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl fixed w-full top-0 z-100 md:px-4" id="navbar">
-      <div class="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
+    <nav class="bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl fixed w-full top-0 z-100 px-4" id="navbar">
+      <div class="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between">
         <!-- Logo -->
-        <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <!-- <span class="self-center text-3xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white">SIBOL</span> -->
-           <img src="./assets/logo.png" alt="Sibol logo" width="85" height="70">
-        </a>
+        <div class="p-2 mt-2 mb-2 md:mt-0 md:mb-0 ms-2">
+          <a href="../index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="../assets/logo.png" alt="Sibol logo" width="60" height="50" class="block dark:hidden">
+            <img src="../assets/logo-dark.png" alt="Sibol logo dark" width="60" height="50" class="hidden dark:block">
+          </a>
+        </div>
         <!-- Mobile Menu Button -->
         <button data-collapse-toggle="mega-menu-icons" type="button"
           class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700"
@@ -61,48 +55,48 @@
               <div class="p-2 pb-0 text-gray-900 md:pb-2 dark:text-white">
                 <ul class="space-y-2" aria-labelledby="mega-menu-icons-dropdown-button">
                   <li class="px-2 py-1">
-                    <a href="./panitikan/maikling-kwento.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Maikling kwento</a>
+                    <a href="../panitikan/maikling-kwento.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Maikling kwento</a>
                   </li>
                   <li class="px-2 py-1">
-                    <a href="./panitikan/alamat.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Alamat</a>
+                    <a href="../panitikan/alamat.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Alamat</a>
                   </li>
                   <li class="px-2 py-1">
-                    <a href="./panitikan/nobela.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Nobela</a>
+                    <a href="../panitikan/nobela.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Nobela</a>
                   </li>
                   <li class="px-2 py-1">
-                    <a href="./panitikan/tula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Tula</a>
+                    <a href="../panitikan/tula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Tula</a>
                   </li>
                 </ul>
               </div>
               <div class="p-2 pb-0 text-gray-900 md:pb-2 dark:text-white">
                 <ul class="space-y-2" aria-labelledby="mega-menu-icons-dropdown-button">
                   <li class="px-2 py-1">
-                    <a href="./panitikan/dula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Dula</a>
+                    <a href="../panitikan/dula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Dula</a>
                   </li>
                   <li class="px-2 py-1">
-                    <a href="./panitikan/epiko.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Epiko</a>
+                    <a href="../panitikan/epiko.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Epiko</a>
                   </li>
                   <li class="px-2 py-1">
-                    <a href="./panitikan/parabula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Parabula</a>
+                    <a href="../panitikan/parabula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Parabula</a>
                   </li>
                   <li class="px-2 py-1">
-                    <a href="./panitikan/Anekdota.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Anekdota</a>
+                    <a href="../panitikan/Anekdota.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Anekdota</a>
                   </li>
                 </ul>
               </div>
               <div class="p-2 text-gray-900 md:pb-2 dark:text-white">
                 <ul class="space-y-2" aria-labelledby="mega-menu-icons-dropdown-button">
                   <li class="px-2 py-1">
-                    <a href="./panitikan/talambuhay.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Talambuhay</a>
+                    <a href="../panitikan/talambuhay.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Talambuhay</a>
                   </li>
                   <li class="px-2 py-1">
-                    <a href="./panitikan/pabula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Pabula</a>
+                    <a href="../panitikan/pabula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Pabula</a>
                   </li>
                   <li class="px-2 py-1">
-                    <a href="./panitikan/talaarawan.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Talaarawan</a>
+                    <a href="../panitikan/talaarawan.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Talaarawan</a>
                   </li>
                   <li class="px-2 py-1">
-                    <a href="./panitikan/awtobiyograpiya.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Awtobiyograpiya</a>
+                    <a href="../panitikan/awtobiyograpiya.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">Awtobiyograpiya</a>
                   </li>
                 </ul>
               </div>
@@ -193,273 +187,246 @@
           </div>
         </div>
       </section>
-    
-      <div  data-aos="zoom-in-up" data-aos-duration="2000" class="w-full mt-20 p-4 text-center bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
-        <h5 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white">May Quiz ang SIBOL</h5>
-        <p class="mb-5 text-base text-gray-500 sm:text-lg dark:text-gray-400">Tuwing iko-click mo ang isa sa mga Akdang Panitkin, magkakaroon ka ng quiz na maaari mong i-skip. Narito ang mga tanong at sagot.</p>
-        
-      <div id="accordion-color" data-accordion="collapse" data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
-        <h2 id="accordion-color-heading-1">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
-            <span>Tanong: Ano ang tawag sa kuwentong nagpapaliwanag ng pinagmulan ng isang bagay, lugar, o pangyayari?
-            </span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
-          <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl">Sagot: Alamat</p>
+      <!-- Section 2 -->
+      <section class="bg-white dark:bg-gray-900 mx-auto px-4 md:px-10" id="quiz">
+        <div data-aos="fade-up" data-aos-duration="500" class="mx-auto max-w-screen-xl mt-20 px-4 text-center bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+          <h5 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white">May Quiz ang SIBOL</h5>
+          <p class="mb-8 text-base text-gray-500 sm:text-md dark:text-gray-400">Tuwing iki-click mo ang isa sa mga Akdang Panitkin, magkakaroon ka ng quiz na maaari mong i-skip. Narito ang mga tanong at sagot.</p>
+          <div id="accordion-color" data-accordion="collapse" data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
+            <h2 id="accordion-color-heading-1">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-1" aria-expanded="false" aria-controls="accordion-color-body-1">
+                <span>Tanong: Ano ang tawag sa kuwentong nagpapaliwanag ng pinagmulan ng isang bagay, lugar, o pangyayari?
+                </span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">Sagot: Alamat</p>
+              </div>
+            </div>
+            <h2 id="accordion-color-heading-2">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-2" aria-expanded="false" aria-controls="accordion-color-body-2">
+                <span>Tanong: Anong uri ng panitikan ang nagpapakita ng isang makabuluhang aral mula sa isang karanasan?
+                </span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">Sagot: Anekdota</p>
+              </div>
+            </div>
+            <h2 id="accordion-color-heading-3">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-3" aria-expanded="false" aria-controls="accordion-color-body-3">
+                <span>Tanong: Kaninong pangalan isinunod ang balagtasan?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">Sagot: Francisco Balagtas</p>
+              </div>
+            </div>
+            
+            <h2 id="accordion-color-heading-4">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-4" aria-expanded="false" aria-controls="accordion-color-body-4">
+                <span>Tanong: Ano ang tawag sa mga nagsisiganap sa isang dula?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-4" class="hidden" aria-labelledby="accordion-color-heading-4">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">Sagot: Tauhan</p>
+              </div>
+            </div>
+            <h2 id="accordion-color-heading-5">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-5" aria-expanded="false" aria-controls="accordion-color-body-5">
+                <span>Tanong: Ano ang tawag sa mga kuwentong pinapasa-pasa sa bibig ng tao at nagpapakita ng kultura ng isang lugar?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-5" class="hidden" aria-labelledby="accordion-color-heading-3">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">  Sagot: Kwentong Bayan</p>
+              </div>
+            </div>
+            <h2 id="accordion-color-heading-6">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-6" aria-expanded="false" aria-controls="accordion-color-body-6">
+                <span>Tanong: Ano ang tawag sa lugar at panahon kung saan naganap ang kwento?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-6" class="hidden" aria-labelledby="accordion-color-heading-3">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold"> Sagot: Tagpuan</p>
+              </div>
+            </div>
+            <h2 id="accordion-color-heading-7">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-7" aria-expanded="false" aria-controls="accordion-color-body-7">
+                <span>Tanong: Sino ang sumulat ng Noli Me Tangere at El Filibusterismo?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-7" class="hidden" aria-labelledby="accordion-color-heading-3">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">Sagot: Dr. Jose Rizal</p>
+              </div>
+            </div>
+            <h2 id="accordion-color-heading-8">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-8" aria-expanded="false" aria-controls="accordion-color-body-8">
+                <span>Tanong: Ano ang tawag sa kuwentong ang mga tauhan ay mga hayop na kumikilos at nagsasalita tulad ng tao?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-8" class="hidden" aria-labelledby="accordion-color-heading-3">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">Sagot: Pabula</p>
+              </div>
+            </div>
+            <h2 id="accordion-color-heading-9">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-9" aria-expanded="false" aria-controls="accordion-color-body-9">
+                <span>Tanong: Saang aklat madalas matatagpuan ang mga parabula?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-9" class="hidden" aria-labelledby="accordion-color-heading-3">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">Sagot: Bibliya</p>
+              </div>
+            </div>
+            <h2 id="accordion-color-heading-10">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-10" aria-expanded="false" aria-controls="accordion-color-body-10">
+                <span>Tanong: Ano ang tawag sa akdang pampanitikan na naglalahad ng opinyon o kaisipan ng may-akda tungkol sa isang paksa?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-10" class="hidden" aria-labelledby="accordion-color-heading-3">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">Sagot: Sanaysay</p>
+              </div>
+            </div>
+            <h2 id="accordion-color-heading-11">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-11" aria-expanded="false" aria-controls="accordion-color-body-11">
+                <span>Tanong: Ano ang tawag sa isang uri ng akdang pampanitikan na naglalarawan ng mga karanasan, tagpo, at mga tauhan sa isang kwento?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-11" class="hidden" aria-labelledby="accordion-color-heading-3">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">Sagot: Talaarawan</p>
+              </div>
+            </div>
+            <h2 id="accordion-color-heading-12">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-12" aria-expanded="false" aria-controls="accordion-color-body-12">
+                <span>Tanong: Ano ang tawag sa akdang nagsasalaysay ng buhay ng isang tao mula sa kanyang kapanganakan hanggang sa kasalukuyan?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-12" class="hidden" aria-labelledby="accordion-color-heading-3">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">Sagot: Talambuhay</p>
+              </div>
+            </div>
+            <h2 id="accordion-color-heading-13">
+              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-13" aria-expanded="false" aria-controls="accordion-color-body-13">
+                <span>Tanong: Anong katangian ng tula ang nagpapakita ng pagkakatugma ng mga huling pantig ng mga taludtod?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+              </button>
+            </h2>
+            <div id="accordion-color-body-13" class="hidden" aria-labelledby="accordion-color-heading-3">
+              <div class="p-3 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p class="mb-2 text-gray-500 dark:text-gray-400 text-lg font-bold">Sagot: Tugma</p>
+              </div>
+            </div>
           </div>
+          <button type="button" class="text-white mt-10 bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Subukan ang Lahat</button>
         </div>
-        <h2 id="accordion-color-heading-2">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-2" aria-expanded="false" aria-controls="accordion-color-body-2">
-            <span>
-              Tanong: Anong uri ng panitikan ang nagpapakita ng isang makabuluhang aral mula sa isang karanasan?
-            </span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
-          <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-2xl text-gray-500 dark:text-gray-400">Sagot: Anekdota</p>
-          </div>
-        </div>
-        <h2 id="accordion-color-heading-3">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-3" aria-expanded="false" aria-controls="accordion-color-body-3">
-            <span>Tanong: Kaninong pangalan isinunod ang balagtasan?</span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
-          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl">Sagot: Francisco Balagtas</p>
-          </div>
-        </div>
-        <h2 id="accordion-color-heading-4">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-4" aria-expanded="false" aria-controls="accordion-color-body-4">
-            <span>Tanong: Ano ang tawag sa mga nagsisiganap sa isang dula?</span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-4" class="hidden" aria-labelledby="accordion-color-heading-3">
-          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl">Sagot: Tauhan</p>
-          </div>
-        </div>
-        <h2 id="accordion-color-heading-5">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-5" aria-expanded="false" aria-controls="accordion-color-body-5">
-            <span>Tanong: Ano ang tawag sa mga kuwentong pinapasa-pasa sa bibig ng tao at nagpapakita ng kultura ng isang lugar?
-          </span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-5" class="hidden" aria-labelledby="accordion-color-heading-3">
-          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl">  Sagot: Kwentong Bayan</p>
-          </div>
-        </div>
-        <h2 id="accordion-color-heading-6">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-6" aria-expanded="false" aria-controls="accordion-color-body-6">
-            <span>Tanong: Ano ang tawag sa lugar at panahon kung saan naganap ang kwento?
+      </section>
 
-          
-          </span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-6" class="hidden" aria-labelledby="accordion-color-heading-3">
-          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl"> Sagot: Tagpuan</p>
-          </div>
-        </div>
-        <h2 id="accordion-color-heading-7">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-7" aria-expanded="false" aria-controls="accordion-color-body-7">
-            <span>Tanong: Sino ang sumulat ng Noli Me Tangere at El Filibusterismo?
-          </span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-7" class="hidden" aria-labelledby="accordion-color-heading-3">
-          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl">Sagot: Dr. Jose Rizal</p>
-          </div>
-        </div>
-        <h2 id="accordion-color-heading-8">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-8" aria-expanded="false" aria-controls="accordion-color-body-8">
-            <span>Tanong: Ano ang tawag sa kuwentong ang mga tauhan ay mga hayop na kumikilos at nagsasalita tulad ng tao?
-
-        
-          </span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-8" class="hidden" aria-labelledby="accordion-color-heading-3">
-          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl">Sagot: Pabula</p>
-          </div>
-        </div>
-        <h2 id="accordion-color-heading-9">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-9" aria-expanded="false" aria-controls="accordion-color-body-9">
-            <span>Tanong: Saang aklat madalas matatagpuan ang mga parabula?
-
-        
-          </span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-9" class="hidden" aria-labelledby="accordion-color-heading-3">
-          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl">Sagot: Bibliya</p>
-          </div>
-        </div>
-        <h2 id="accordion-color-heading-10">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-10" aria-expanded="false" aria-controls="accordion-color-body-10">
-            <span>Tanong: Ano ang tawag sa akdang pampanitikan na naglalahad ng opinyon o kaisipan ng may-akda tungkol sa isang paksa?
-          </span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-10" class="hidden" aria-labelledby="accordion-color-heading-3">
-          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl">Sagot: Sanaysay</p>
-          </div>
-        </div>
-        <h2 id="accordion-color-heading-11">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-11" aria-expanded="false" aria-controls="accordion-color-body-11">
-            <span>Tanong: Ano ang tawag sa isang uri ng akdang pampanitikan na naglalarawan ng mga karanasan, tagpo, at mga tauhan sa isang kwento?
-          </span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-11" class="hidden" aria-labelledby="accordion-color-heading-3">
-          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl">Sagot: Talaarawan</p>
-          </div>
-        </div>
-        <h2 id="accordion-color-heading-12">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-12" aria-expanded="false" aria-controls="accordion-color-body-12">
-            <span>Tanong: Ano ang tawag sa akdang nagsasalaysay ng buhay ng isang tao mula sa kanyang kapanganakan hanggang sa kasalukuyan?
-          </span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-12" class="hidden" aria-labelledby="accordion-color-heading-3">
-          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl">Sagot: Talambuhay</p>
-          </div>
-        </div>
-        <h2 id="accordion-color-heading-13">
-          <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200  dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-13" aria-expanded="false" aria-controls="accordion-color-body-13">
-            <span>Tanong: Anong katangian ng tula ang nagpapakita ng pagkakatugma ng mga huling pantig ng mga taludtod?
-          </span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-            </svg>
-          </button>
-        </h2>
-        <div id="accordion-color-body-13" class="hidden" aria-labelledby="accordion-color-heading-3">
-          <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400 text-2xl">Sagot: Tugma</p>
-          </div>
-        </div>
-      </div>
-      <button type="button" class="text-white mt-10 bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Subukan ang Lahat</button>
-
-      </div>
-
-      <div class="flex flex-col px-5 my-30 md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
+      <!-- Section 3 -->
+      <div class="flex flex-col px-5 mt-20 pb-20 px-8 md:px-10 md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8 mx-auto max-w-screen-xl">
         <!-- Carousel Section -->
         <div class="relative w-full md:w-1/2">
-            <div data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom" id="indicators-carousel" class="relative w-full" data-carousel="static">
-                <!-- Carousel wrapper -->
-                <div class="relative h-100 overflow-hidden rounded-lg md:h-96">
-                    <!-- Item 1 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                      <img src="./assets/himig.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:h-72 md:h-96 lg:h-96" alt="...">
-                  </div>
-                  
-                    <!-- Item 2 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/dalampasigan.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 3 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/pag-ibig.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 4 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets//silahis.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 5 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/sa piling mo.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                </div>
-                <!-- Slider indicators -->
-                <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
-                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-                </div>
-                <!-- Slider controls -->
-                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                        </svg>
-                        <span class="sr-only">Previous</span>
-                    </span>
-                </button>
-                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                        </svg>
-                        <span class="sr-only">Next</span>
-                    </span>
-                </button>
+          <div id="indicators-carousel" class="relative w-full" data-carousel="slide">
+            <div class="relative h-100 overflow-hidden rounded-lg md:h-80">
+              <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <img src="./assets/home_carousel/himig.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:h-72=" alt="...">
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./assets/home_carousel/dalampasigan.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./assets/home_carousel/pag-ibig.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./assets/home_carousel/silahis.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./assets/home_carousel/sa piling mo.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+              </div>
             </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+              <button type="button" class="w-2 h-2 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+              <button type="button" class="w-2 h-2 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+              <button type="button" class="w-2 h-2 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+              <button type="button" class="w-2 h-2 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+              <button type="button" class="w-2 h-2 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+              <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-3 h-3 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+              <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-3 h-3 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
         </div>
-    
         <!-- Text Section -->
-        <div data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000" class="w-full md:w-1/2">
-          <h2 class="text-2xl font-semibold mb-4">Mga Ilan sa mga Akdang Panitikan</h2>
-          <p class="text-lg text-gray-600">
+        <div class="w-full md:w-1/2">
+          <h2 class="dark:text-white text-2xl font-semibold mb-4">Mga Ilan sa mga Akdang Panitikan</h2>
+          <p class="text-md text-gray-400">
               Ito ay mga halimbawa ng akdang panitikan na orihinal na gawa ng SIBOl. Ang mga akdang ito ay nilikha ng mga kasapi at mga talento ng SIBol, na naglalayong ipakita ang kagandahan at kahalagahan ng ating kultura at tradisyon. Sa bawat tula, kwento, at sanaysay na kanilang isinulat, ipinapakita ang malalim na pag-unawa sa ating kasaysayan at mga karanasan bilang isang bansa. Ang mga akdang ito ay nagsisilbing pagninilay at pagpapahayag ng ating mga saloobin at pananaw tungkol sa ating lipunan.
           </p>
+        </div>
       </div>
-      
-    </div>
-    
-    
     </main>
   </div>
   <!-- Main Footer -->
@@ -467,23 +434,19 @@
   <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-     AOS.init();
-
+    AOS.init();
 
     document.querySelectorAll('#preloader .loader p span').forEach((span, index) => {
       span.style.setProperty('--i', index); 
     });
 
     setTimeout(() => {
-   
       document.getElementById('preloader').classList.add('hidden');
-      
       
       setTimeout(() => {
         document.getElementById('preloader').style.display = 'none';
         document.getElementById('preloader').classList.remove('hidden');
         document.getElementById('main-content').style.display = 'block'; 
-      
       }, 1000); 
     }, 3000); 
   </script>

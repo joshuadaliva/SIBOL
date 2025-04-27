@@ -1,5 +1,5 @@
 const navbarHTML = `
-<nav class="bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl fixed w-full top-0 z-100 md:px-4" id="navbar">
+        <nav class="bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl fixed w-full top-0 z-100 md:px-4" id="navbar">
             <div class="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
                 <!-- Logo -->
                 <a href="../index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
