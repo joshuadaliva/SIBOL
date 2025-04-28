@@ -3,195 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIBOL</title>
+    <title>Sibol&trade; | Nobela</title>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
-   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./../css/style.css">
 </head>
 <body>
-    <div>
-        <nav class="bg-white border-gray-200 dark:bg-gray-900 shadow-lg" id="navbar">
-            <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
-                <a href="./../index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <span class="self-center text-4xl font-extrabold tracking-tight leading-none text-gray-900  dark:text-white whitespace-nowrap dark:text-white">SIBOL</span>
-                </a>
-                <div class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
-                   
-                    <button data-collapse-toggle="mega-menu-icons" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-icons" aria-expanded="false">
-                        <span class="sr-only">Open main menu</span>
-                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                        </svg>
-                    </button>
+    <div class="bg-white dark:bg-gray-900 min-h-screen flex flex-col justify-between">
+      <!-- Navbar -->
+      <div id="navbar-container"></div>
+      <!-- Main Content -->
+      <main class="bg-white dark:bg-gray-900 pt-20 mx-auto w-full max-w-screen-xl px-2 pb-4">
+        <h1 class="m-4 my-8 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl dark:text-white text-center">
+          Nobela
+        </h1>
+        <!-- Divider -->
+        <hr class="my-8 border-gray-200 sm:mx-auto dark:border-gray-600" />
+        <!-- Content Selections -->
+        <div class="container mx-auto px-4 py-4 pb-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 overflow-hidden hover:scale-101 transition-transform duration-300 ease-in-out">
+            <a href="../PDF/Sa Piling Mo.pdf" target="_blank">
+              <img class="w-full h-60 object-cover" src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" alt="Sa Piling Mo" />
+              <div class="p-6 md:p-8">
+                <div class="flex items-center justify-between text-gray-500 text-sm mb-4">
+                  <span>Aguirre at iba pa</span>
+                  <span>April 27, 2025</span>
                 </div>
-                <div id="mega-menu-icons" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
-                    <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
-                        <li>
-                            <button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown" class="flex items-center justify-between w-full py-2 px-3 font-medium text-gray-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">
-                                Mga Akdang pampanitikan
-                                <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                                </svg>
-                            </button>
-                            <div id="mega-menu-icons-dropdown" class="absolute z-10 grid hidden w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md dark:border-gray-700 md:grid-cols-3 dark:bg-gray-700 z-40">
-                                <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
-                                    <ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
-                                        <li>
-                                            <a href="./maikling-kwento.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Maikling kwento
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="./alamat.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Alamat 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="./nobela.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Nobela
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="./tula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Tula
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
-                                    <ul class="space-y-4">
-                                        <li>
-                                            <a href="dula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Dula
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="epiko.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Epiko
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="parabula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Parabula
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="Anekdota.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Anekdota
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="p-4 text-gray-900 dark:text-white">
-                                    <ul class="space-y-4">
-                                        <li>
-                                            <a href="talambuhay.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Talambuhay 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="pabula.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Pabula
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="talaarawan.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Talaarawan
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="awtobiyograpiya.html" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 group">
-                                                Awtobiyograpiya 
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Sa Piling Mo</h5>
+                <p class="text-gray-700 dark:text-gray-400 text-md">
+                  Wala pa ito description
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 overflow-hidden hover:scale-101 transition-transform duration-300 ease-in-out">
+            <a href="../PDF/Pag-ibig Di Magbabago.pdf" target="_blank">
+              <img class="w-full h-60 object-cover" src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" alt="Pag-ibig Di Magbabago" />
+              <div class="p-6 md:p-8">
+                <div class="flex items-center justify-between text-gray-500 text-sm mb-4">
+                  <span>Jonalyn Bermido at iba pa</span>
+                  <span>April 27, 2025</span>
                 </div>
-            </div>
-        </nav>
-        <main>
-            <h1 class="m-4 my-10 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white text-center">Nobela</h1>
-            <div class="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 overflow-hidden">
-                    <a href="./../nobela/noli-me-tanghere-boud.html">
-                        <img class="w-full h-72 object-cover" src="https://live.staticflickr.com/4071/4268735598_c80a0080ab_b.jpg" alt="Nole Me Tanger" />
-                    </a>
-                    <div class="p-5">
-                        <a href="./../nobela/noli-me-tanghere-boud.html">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Nole me Tangere</h5>
-                        </a>
-                        <p class="text-gray-700 dark:text-gray-400">Ang Noli Me Tángere ay isang nobelang isinulat ni Jose Rizal, at inilathala noong 1887, sa Europa. Ang pagbasa nito at ng itong kasunod, ang El Filibusterismo, ay kailangan para sa mga mag-aaral sa sekondarya.</p>
-                    </div>
+                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Pag-ibig Di Magbabago</h5>
+                <p class="text-gray-700 dark:text-gray-400 text-md">
+                  Wala pa ito description
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 overflow-hidden hover:scale-101 transition-transform duration-300 ease-in-out">
+            <a href="../PDF/Ikalawang Silahis ng Pagtangi.pdf" target="_blank">
+              <img class="w-full h-60 object-cover" src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" alt="Ikalawang Silahis ng Pagtangi" />
+              <div class="p-6 md:p-8">
+                <div class="flex items-center justify-between text-gray-500 text-sm mb-4">
+                  <span>Janecel Sayat at iba pa</span>
+                  <span>April 27, 2025</span>
                 </div>
-            
-          
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 overflow-hidden">
-                    <a href="./../nobela/el-filibusterismo.html">
-                        <img class="w-full h-72 object-cover" src="https://live.staticflickr.com/4042/4267995199_84e5303701_b.jpg" alt="El Filibusterismo" />
-                    </a>
-                    <div class="p-5">
-                        <a href="./../nobela/el-filibusterismo.html">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">El Filibusterismo
-                            </h5>
-                        </a>
-                        <p class="text-gray-700 dark:text-gray-400">Ang nobelang El filibusterismo (literal na "Ang Pilibusterismo") o Ang Paghahari ng Kasakiman[1] ay ang pangalawang nobelang isinulat ng pambansang bayani ng Pilipinas na si José Rizal</p>
-                    </div>
-                </div>
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 overflow-hidden">
-                    <a href="./../nobela/ibong-adarna.html">
-                        <img class="w-full h-72 object-cover" src="https://cdn2.picryl.com/photo/2021/01/22/ibong-adarna-8703e9-640.jpg" alt="Ibong Adarna" />
-                    </a>
-                    <div class="p-5">
-                        <a href="./../nobela/ibong-adarna.html">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Ibong Adarna
-                            </h5>
-                        </a>
-                        <p class="text-gray-700 dark:text-gray-400">Ang Ibong Adarna ay isang koridong Tagalog na isinulat ng hindi kilalang may-akda. Ang buong pamagat nito ay Corrido at Buhay na Pinagdaanan nang Tatlong Prinsipeng Magkakapatid na Anak nina Haring Fernando at Reyna Valeriana sa kahariang Berbania. Walang tiyak na petsa ang tula.Halaw ito sa isang lumang Europeong alamat.</p>
-                    </div>
-                </div>
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 overflow-hidden">
-                    <a href="./../nobela/florante-at-laura.html">
-                        <img class="w-full h-72 object-cover" src="https://live.staticflickr.com/51/105795455_23e8c75a3d_z.jpg" alt="Florane at Laura" />
-                    </a>
-                    <div class="p-5">
-                        <a href="./../nobela/florante-at-laura.html">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Florante At Laura
-                            </h5>
-                        </a>
-                        <p class="text-gray-700 dark:text-gray-400">Ang Florante at Laura ni Francisco Baltasar (na kilala din bilang Balagtas) ay isang obra-maestra sa panitikang Pilipino. Daglat lamang ang katawagang Florante at Laura.</p>
-                    </div>
-                </div>
-            </div>
-            
-          
-        </main>
+                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Ikalawang Silahis ng Pagtangi</h5>
+                <p class="text-gray-700 dark:text-gray-400 text-md">
+                  Wala pa ito description
+                </p>
+              </div>
+            </a>
+          </div>
+          <!--  -->
+        </div>
+      </main>
     </div>
-
-
-
-    <footer class="bg-white rounded-lg shadow-sm my-4 dark:bg-gray-800" style="position: relative;bottom: 0;width: 100%;">
-        <div class="story-credits bg-gray-100 px-6 py-4 mt-10 border-t border-gray-300">
-            <h4 class="text-lg font-semibold text-gray-800 mb-2">Credits</h4>
-            <ul class="list-disc list-inside text-gray-700 space-y-1">
-              <li>
-                <span class="italic">
-                <a href="https://www.wikipedia.org/" class="text-blue-600 hover:underline">https://www.wikipedia.org/ - Wikipedia</a>
-              </li>
-              <li>
-                <span class="italic">
-                <a href="https://www.scribd.com/" class="text-blue-600 hover:underline">https://www.scribd.com/ - Scribd</a>
-              </li>
-            </ul>
-        </div>
-        <div class="w-full mx-auto max-w-screen-xl py-4 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400 block w-full">© 2025 <a href="" class="hover:underline text-center ">SIBOL</a>. All Rights Reserved.
-        </span>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  <!-- Main Footer -->
+  <div id="footer-container"></div>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="../JS_scripts/footer_scripts.js"></script>
+  <script src="../JS_scripts/content-header-scripts.js"></script>
 </body>
 </html>
